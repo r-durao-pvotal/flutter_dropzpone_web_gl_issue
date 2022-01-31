@@ -46,13 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: ListView(
         children: [
-          ReactiveUpload(),
-          ReactiveUpload(),
-          ReactiveUpload(),
-          ReactiveUpload(),
-          ReactiveUpload(),
-          ReactiveUpload(),
-          ReactiveUpload(),
+          const SizedBox(height: 1000),
           ReactiveUpload(),
         ],
       ),
